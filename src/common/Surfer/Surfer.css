@@ -1,0 +1,15 @@
+.surfer-design
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    padding: 0.5rem;
+}
+.surfer-design:hover
+{
+    background-color: blue;
+}

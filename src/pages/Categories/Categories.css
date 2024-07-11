@@ -1,0 +1,10 @@
+.categories-design
+{
+    width: 100vw;
+    background-color: rgb(199, 105, 213);
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
