@@ -60,7 +60,7 @@ const List = () =>
             <div className="jokes-card-wrapper">
                 {jokes  ?(
                     <>
-                    {jokes.map((joke, i)=>{
+                    {jokes.map((joke)=>{
                         return(
                             <>
                                 <SingleJoke joke={joke}/> 

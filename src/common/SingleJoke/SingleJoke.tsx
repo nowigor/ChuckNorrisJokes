@@ -17,10 +17,8 @@ const SingleJoke: React.FC<ChuckNorrisJokePrev> = ({ joke }) => {
 
   const handleClick = () => {
     if (image === heart_red) {
-        let isFavorite = false;
         state.favorites.forEach((favJoke) => {
           if (favJoke.id === joke.id) {
-            isFavorite = true;
             removeFavoriteJoke(favJoke.id);
           }
         });
