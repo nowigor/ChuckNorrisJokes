@@ -8,6 +8,13 @@
     color: rgba(0, 0, 0, 0.63);
     border-bottom: 2px solid rgba(128, 128, 128, 0.758);
 }
+@media(max-width: 500px)
+{
+    .input-design
+    {
+        width: 80%;
+    }
+}
 .input-design:hover
 {
     border-bottom: 2px solid #F0803C;

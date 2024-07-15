@@ -46,7 +46,7 @@ const Categories = () =>{
                     ) : (
                         <p>Loading categories...</p>
                     )} 
-        <div className="mt-40">
+        <div className="single-joke-element">
             {joke && 
                 <SingleJoke joke={joke}/> 
             }

@@ -21,6 +21,13 @@
     box-shadow: 12px 12px 75px -19px rgba(0,0,0,0.74);
 
 }
+@media(max-width: 500px)
+{
+    .login-wrapper-design
+    {
+        width: 90%;
+    }
+}
 .inputs-wrapper-design
 {
     margin-top: 20px;

@@ -10,6 +10,31 @@
     align-items: center;
     justify-content: center;
 }
+.vertical-line
+{
+    height: 50px;
+    width: 2px;
+    background-color: 	#999999;
+}
+
+@media(max-width: 768px){
+    .header-design
+    {
+        height: auto;
+    }
+    .buttons-wrapper
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+    .vertical-line
+    {
+        height: 2px;
+        width: 200px;
+    }
+
+}
 .buttons-wrapper
 {
     width: 100%;
@@ -19,12 +44,8 @@
     
 }
 
-.vertical-line
-{
-    height: 50px;
-    width: 2px;
-    background-color: 	#999999;
-}
+
+
 .logo-design
 {
     width: 65px;

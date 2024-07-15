@@ -19,6 +19,7 @@
 .list-element
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F0803C;
@@ -28,4 +29,11 @@
 }
 .list-element:hover{
     background-color: #ff6200;
+}
+.single-joke-element
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }

@@ -5,7 +5,7 @@ import SingleJoke from "../../common/SingleJoke/SingleJoke";
 
 const Favorites = () =>{
 
-    const { state, addFavoriteJoke} = useMyContext(); 
+    const { state} = useMyContext(); 
 
     useEffect(()=>{
 

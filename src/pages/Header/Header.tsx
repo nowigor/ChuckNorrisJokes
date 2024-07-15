@@ -3,7 +3,6 @@ import Surfer from "../../common/Surfer/Surfer";
 import "./Header.css";
 import { useMyContext } from "../../app/ProviderContextComponent";
 import { useEffect } from "react";
-import logo from "../../assets/chucknorris-logo2.png";
 
 const Header = () =>
 {
