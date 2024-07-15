@@ -18,12 +18,14 @@ const Body = () =>
                 <Route path="*" element={<Navigate to={"/"} replace/>} />
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
+               
+
                 {state.auth.token !== "" ? (
                     <>
-                         <Route path ="/categories" element={<Categories/>}></Route> 
-                        <Route path ="/searchforjokes" element={<SearchForJokes/>}></Route>
-                        <Route path="/list" element={<List/>}></Route>
-                        <Route path="/favourites" element={<Favorites/>}></Route>
+                    <Route path ="/searchforjokes" element={<SearchForJokes/>}></Route>
+                    <Route path ="/categories" element={<Categories/>}></Route> 
+                    <Route path="/list" element={<List/>}></Route>
+                    <Route path="/favourites" element={<Favorites/>}></Route>
                     </>
                 ) : null}
             </Routes>

@@ -48,7 +48,7 @@ const SearchForJokes = () => {
                 />
                 <button onClick={fetchJokes} className="button-design">Find a joke</button>
             </div>
-            <div className="jokes-card-wrapper">
+            <div className="jokes-card-wrapper2">
                 {isSearchEmpty ? (
                     <div className="text">Please enter a search term to find jokes.</div>
                 ) : jokes && jokes.total > 0 ? (

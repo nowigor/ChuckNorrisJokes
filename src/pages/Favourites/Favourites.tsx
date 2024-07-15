@@ -13,7 +13,7 @@ const Favorites = () =>{
     return(
         <div className="favourites-design">
             <div className="text-favourites">Your's favourites jokes list: </div>
-            <div className="jokes-card-wrapper">
+            <div className="jokes-card-wrapper3">
             {state &&
                 state.favorites.map((joke)=>{
                     return(
