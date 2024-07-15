@@ -68,10 +68,12 @@ Once the development server is running, you can view the app by navigating to `h
 
 ### Chuck Norris API
 
-This API provides random Chuck Norris jokes.
+This API provides various endpoints related to Chuck Norris jokes.
 
-- **Endpoint for random jokes:** `https://api.chucknorris.io/jokes/random`
+- **Endpoint for a random joke:** `https://api.chucknorris.io/jokes/random`
 - **Endpoint for jokes with a query:** `https://api.chucknorris.io/jokes/search?query={query}`
+- **Endpoint for joke categories:** `https://api.chucknorris.io/jokes/categories`
+- **Endpoint for a joke by ID:** `https://api.chucknorris.io/jokes/{id}`
 
 ### DummyJSON API
 
@@ -95,4 +97,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-s
