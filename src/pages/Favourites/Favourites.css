@@ -1,13 +1,19 @@
-.list-design
+.favourites-design
 {
     width: 100vw;
     min-height: 90vh;
     display: flex;
-    justify-content: flex-start ;
-    align-items: center;
     flex-direction: column;
-    overflow: hidden;
-    overflow-x: hidden;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text-favourites
+{
+    font-weight: 500;
+    color: white;
+    font-size: 45px;
+    height: 40px;
+    margin-top: 10px;
 }
 .jokes-card-wrapper
 {
@@ -19,4 +25,5 @@
     gap: 35px;
     justify-content: space-evenly;
     width: 75%;
+    margin-bottom: 40px;
 }

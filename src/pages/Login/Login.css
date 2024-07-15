@@ -1,6 +1,57 @@
 .login-design
 {
     width: 100vw;
-    background-color: #880000;
-    min-height: 92vh;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper-design
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-radius: 0.5em;
+    gap:30px;
+    box-shadow: 12px 12px 75px -19px rgba(0,0,0,0.74);
+
+}
+.inputs-wrapper-design
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-up
+{
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 500;
+    color :#F0803C ;
+}
+.text-message
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+}
+.signin-design
+{
+    width: 100px;
+    height: 50px;
+    background-color: #F0803C;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    box-shadow: 12px 12px 75px -19px rgba(0,0,0,0.74);
 }

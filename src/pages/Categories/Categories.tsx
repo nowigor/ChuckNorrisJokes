@@ -38,19 +38,21 @@ const Categories = () =>{
     return(
         <div className="categories-design">
         {categories && categories.length > 0 ?  (
-                        <ul>
+                        <div className="list-wrapper-design">
                             {categories.map((category) => (
-                                <li key={category} onClick={() => onClick(category)}>{category}</li>
+                                <div className="list-element" key={category} onClick={() => onClick(category)}>{category}</div>
                             ))}
-                        </ul>
+                        </div>
                     ) : (
                         <p>Loading categories...</p>
                     )} 
-
-        {joke && 
-            <SingleJoke icon_url={joke.icon_url} id={joke.id} value={joke.value}/> 
-        }
+        <div className="mt-40">
+            {joke && 
+                <SingleJoke joke={joke}/> 
+            }
+            </div>
         </div>
+
     )
 
 }

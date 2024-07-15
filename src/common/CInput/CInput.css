@@ -1,5 +1,23 @@
 .input-design
 {
-    width: 200px;
-    background-color: blue;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.63);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.758);
+}
+.input-design:hover
+{
+    border-bottom: 2px solid #F0803C;
+    
+    
+}
+.input-design:hover::placeholder {
+    color: #F0803C; /* Change this to your desired color */
+}
+.input-design-number
+{
+    margin-top: 10px;
 }

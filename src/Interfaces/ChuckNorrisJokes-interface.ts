@@ -8,9 +8,7 @@ export interface ChuckNorrisJoke {
     value: string;
 }
 export interface ChuckNorrisJokePrev {
-    icon_url: string | undefined;
-    id: string | undefined;
-    value: string | undefined;
+    joke: ChuckNorrisJoke
 }
 
 export type ChuckNorrisJokesCategories = string[];

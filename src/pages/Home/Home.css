@@ -1,10 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .home-design
 {
     width: 100vw;
-    background-color: rgb(84, 38, 139);
-    min-height: 92vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.getrandom-button-design
+{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 0.2rem;
+    font-size: 20px;
+    width: 180px;
+    height: 70px;
+}
+.getrandom-button-design:hover
+{
+    font-size: 22px;
+    background-color: rgb(219, 219, 219);
 }

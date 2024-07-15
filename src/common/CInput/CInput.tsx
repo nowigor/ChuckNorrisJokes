@@ -1,5 +1,5 @@
 import { CInputInt } from "../../Interfaces/CInput-interface"
-
+import './CInput.css'
 const CInput: React.FC<CInputInt> = ({type, name, design, placeholder, onChange}) => {
 
     return (

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Home.css";
 import { getRandomJoke } from "../../services/chuck-norris-api-calls";
 import { ChuckNorrisJoke } from "../../Interfaces/ChuckNorrisJokes-interface";
@@ -23,13 +23,10 @@ const Home = () => {
 
     return (
         <div className="home-design">   
-            <SingleJoke
-                icon_url={joke?.icon_url}
-                id={joke?.id}
-                value={joke?.value}
-            />
-            <button onClick={fetchJoke}>get random joke</button>
-
+        {joke &&  
+            <SingleJoke joke={joke}/>
+        }
+            <button onClick={fetchJoke} className="getrandom-button-design">Get another random joke</button>
         </div>
 
     );

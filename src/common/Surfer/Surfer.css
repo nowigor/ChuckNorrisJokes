@@ -3,13 +3,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.5rem;
-    background-color: red;
-    width: 70px;
-    height: 30px;
-    padding: 0.5rem;
+    width: 200px;
+    height: 10vh;
+    font-size: 24px;
+    font-weight: 600;
 }
 .surfer-design:hover
 {
-    background-color: blue;
+    background-color: #777777;
+    font-size: 26px;
+    cursor: pointer;
+
+}
+.selected
+{
+    background-color: #777777;
 }

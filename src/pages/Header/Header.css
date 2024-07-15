@@ -1,10 +1,32 @@
 .header-design
 {
+    background-color: 	#333333;
+    color: rgba(255, 255, 255, 0.607);
+    font-weight: 500;
+    font-size: 20px;
     width: 100vw;
-    background-color: #999999;
-    min-height: 8vh;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+}
+.buttons-wrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.vertical-line
+{
+    height: 50px;
+    width: 2px;
+    background-color: 	#999999;
+}
+.logo-design
+{
+    width: 65px;
+    height: 60px;
 }
