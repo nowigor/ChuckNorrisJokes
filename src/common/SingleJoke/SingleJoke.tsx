@@ -17,11 +17,14 @@ const SingleJoke: React.FC<ChuckNorrisJokePrev> = ({ joke }) => {
 
   const handleClick = () => {
     if (image === heart_red) {
-        state.favorites.forEach((favJoke) => {
-          if (favJoke.id === joke.id) {
-            removeFavoriteJoke(favJoke.id);
-          }
-        });
+      const confirmation = window.confirm("Are you sure you want to remove joke from favourites?");
+      if (confirmation) {
+          state.favorites.forEach((favJoke) => {
+            if (favJoke.id === joke.id) {
+              removeFavoriteJoke(favJoke.id);
+            }
+          });
+        }
     } else {
       addFavoriteJoke(joke);
       setImage(heart_red);

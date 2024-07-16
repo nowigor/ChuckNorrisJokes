@@ -33,9 +33,9 @@ This application allows users to browse jokes about Chuck Norris. It includes a 
 ![Screenshot 1](./src/assets/overview/overview1.png)
 ![Screenshot 2](./src/assets/overview/overview2.png)
 ![Screenshot 3](./src/assets/overview/overview3.png)
-![Screenshot 4](./src/assets/overview/overview4.png)
-![Screenshot 5](./src/assets/overview/overview5.png)
-![Screenshot 6](./src/assets/overview/overview6.png)
+![Screenshot 4](./src/assets/overview/overview5.png)
+![Screenshot 5](./src/assets/overview/overview6.png)
+![Screenshot 6](./src/assets/overview/overview7.png)
 
 ## Installation
 
